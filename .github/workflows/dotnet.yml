@@ -31,6 +31,7 @@ jobs:
       with:
         path-to-opencover-xml: ./tests/coverage.opencover.xml
         path-to-badges: ./
+        commit-branch-name: gh-pages
         minimum-coverage: 75
         commit-badges: false
         repo-token: ${{ secrets.GITHUB_TOKEN }}

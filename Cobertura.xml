@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.5" branch-rate="1" lines-covered="3" lines-valid="6" branches-covered="0" branches-valid="0" complexity="2" version="0" timestamp="1694516822">
+<coverage line-rate="0.5" branch-rate="1" lines-covered="3" lines-valid="6" branches-covered="0" branches-valid="0" complexity="2" version="0" timestamp="1694516929">
   <sources />
   <packages>
     <package name="test-coverage-badge-example" line-rate="0.5" branch-rate="1" complexity="2">

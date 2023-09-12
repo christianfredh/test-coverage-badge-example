@@ -25,15 +25,16 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
-    - name: Git stuff
-      run: git fetch
-    - name: OpenCover Badge Generator
-      uses: danpetitt/open-cover-badge-generator-action@v1.0.10
+      run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=results/
+    - name: Create Test Coverage Badge
+      uses: simon-k/dotnet-code-coverage-badge@v1.0.0
+      id: create_coverage_badge
       with:
-        path-to-opencover-xml: ./tests/coverage.opencover.xml
-        path-to-badges: ./
-        minimum-coverage: 75
-        commit-badges: true
-        commit-branch-name: gh-pages
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        label: Unit Test Coverage
+        color: brightgreen
+        path: ./tests/results/coverage.opencover.xml
+    - name: Publish coverage report to GitHub Pages
+#      if: ${{ github.ref == 'refs/heads/main' }}
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: ./tests/results

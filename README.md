@@ -1,4 +1,4 @@
-[![Test Coverage](https://christianfredh.github.io/test-coverage-badge-example/coverage-badge-line.svg)](https://christianfredh.github.io/test-coverage-badge-example/coverage-badge-line.svg)
+[![Test Coverage](https://christianfredh.github.io/test-coverage-badge-example/coverage-badge-line.svg)](https://christianfredh.github.io/test-coverage-badge-example)
 
 https://christianfredh.github.io/test-coverage-badge-example/coverage-badge-line.svg
 

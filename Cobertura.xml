@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.5" branch-rate="1" lines-covered="3" lines-valid="6" branches-covered="0" branches-valid="0" complexity="2" version="0" timestamp="1694516822">
+  <sources />
+  <packages>
+    <package name="test-coverage-badge-example" line-rate="0.5" branch-rate="1" complexity="2">
+      <classes>
+        <class name="test_coverage_badge_example.SomethingToTest" filename="/home/runner/work/test-coverage-badge-example/test-coverage-badge-example/test-coverage-badge-example/SomethingToTest.cs" line-rate="0.5" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Add" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="1" branch="false" />
+                <line number="7" hits="1" branch="false" />
+                <line number="8" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="Multiply" signature="(System.Int32,System.Int32)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="false" />
+                <line number="12" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="1" branch="false" />
+            <line number="7" hits="1" branch="false" />
+            <line number="8" hits="1" branch="false" />
+            <line number="11" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

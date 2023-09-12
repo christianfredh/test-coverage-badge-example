@@ -2,9 +2,9 @@
 <CoverageSession>
   <Summary numSequencePoints="6" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="50" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="2" />
   <Modules>
-    <Module hash="EE2A1165-4BA7-49D6-9AD5-E4B1F6A6C253">
+    <Module hash="9DFA96A9-17F3-43B8-ABFB-D4DCB2BC6EC0">
       <ModulePath>test-coverage-badge-example.dll</ModulePath>
-      <ModuleTime>2023-09-12T10:58:39</ModuleTime>
+      <ModuleTime>2023-09-12T10:58:43</ModuleTime>
       <ModuleName>test-coverage-badge-example</ModuleName>
       <Files>
         <File uid="1" fullPath="/home/runner/work/test-coverage-badge-example/test-coverage-badge-example/test-coverage-badge-example/SomethingToTest.cs" />
